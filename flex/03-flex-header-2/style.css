@@ -8,7 +8,25 @@ body {
   font-family: Besley, serif;
 }
 
+.left-part
+{
+  display: flex;
+  margin-left: 8px;
+  align-items: center;
+  gap: 15px;
+}
+
+.right-part
+{
+  display: flex;
+  gap: 20px;
+  margin-right: 8px;
+}
+
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -44,5 +62,9 @@ a {
 }
 
 ul {
+  display: flex;
+  gap: 15px;
   list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
